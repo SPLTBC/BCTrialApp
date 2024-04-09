@@ -1,5 +1,38 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Publish: BC23 local",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://bc23",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "tenant": "default",
+            "usePublicURLFromServer": true
+        },
+        {
+            "name": "Publish: SP DEV cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "tenant": "a0c6ec6d-94c1-4b6e-a290-73996660e809",
+            "environmentType": "Sandbox",
+            "environmentName": "dev",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
     ]
 }

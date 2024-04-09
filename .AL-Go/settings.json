@@ -2,5 +2,6 @@
   "country": "lt",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "projectName": "BC Trial App"
 }
