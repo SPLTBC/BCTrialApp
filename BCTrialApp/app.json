@@ -3,18 +3,19 @@
   "name": "BCTrialApp",
   "publisher": "StrongPoint",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "Test extension for BC cloud",
+  "description": "Test extension for BC cloud",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
-  "url": "",
-  "logo": "",
+  "url": "http://www.prekybosvaldymas.lt",
+  "logo": "images/splogo_iVz_icon.ico",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
+  "platform": "23.0.0.0",
   "application": "23.0.0.0",
   "runtime": "12.0",
+  "target": "Cloud",
   "idRanges": [
     {
       "from": 50000,
@@ -26,7 +27,7 @@
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
   }
 }
