@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Publish: BC23 local",
+            "name": "BC23 local docker",
             "type": "al",
             "request": "launch",
             "environmentType": "OnPrem",
@@ -21,12 +21,12 @@
             "usePublicURLFromServer": true
         },
         {
-            "name": "Publish: SP DEV cloud sandbox",
+            "name": "SP_DEV cloud sandbox",
             "request": "launch",
             "type": "al",
             "tenant": "a0c6ec6d-94c1-4b6e-a290-73996660e809",
             "environmentType": "Sandbox",
-            "environmentName": "dev",
+            "environmentName": "SP_DEV",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",
