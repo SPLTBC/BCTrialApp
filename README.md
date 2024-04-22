@@ -10,3 +10,4 @@ Please read [this](https://github.com/microsoft/AL-Go/blob/main/Scenarios/Contri
 We do not accept Pull Requests on the template repository directly.
 
 [![ CI/CD](https://github.com/SPLTBC/BCTrialApp/actions/workflows/CICD.yaml/badge.svg?branch=main&event=push)](https://github.com/SPLTBC/BCTrialApp/actions/workflows/CICD.yaml)
+[![ Test Current](https://github.com/SPLTBC/BCTrialApp/actions/workflows/Current.yaml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/SPLTBC/BCTrialApp/actions/workflows/Current.yaml)
