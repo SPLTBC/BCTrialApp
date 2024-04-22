@@ -8,6 +8,7 @@ TestResults*.xml
 bcptTestResults*.json
 BuildOutput.txt
 rad.json
+launch.json
 .output/
 .dependencies/
 .buildartifacts/
@@ -17,6 +18,5 @@ rad.json
 .altemplates/
 .altestrunner/
 .snapshots/
-/.vscode/launch.json
 cache_*
 ~$*
