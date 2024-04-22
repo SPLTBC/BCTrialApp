@@ -8,3 +8,5 @@ Please go to https://aka.ms/AL-Go to learn more.
 Please read [this](https://github.com/microsoft/AL-Go/blob/main/Scenarios/Contribute.md) description on how to contribute to AL-Go for GitHub.
 
 We do not accept Pull Requests on the template repository directly.
+
+[![ CI/CD](https://github.com/SPLTBC/BCTrialApp/actions/workflows/CICD.yaml/badge.svg?branch=main&event=push)](https://github.com/SPLTBC/BCTrialApp/actions/workflows/CICD.yaml)
