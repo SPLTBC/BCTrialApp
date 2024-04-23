@@ -6,6 +6,5 @@
   "enableUICop": true,
   "environments": [
     "SP_DEV"
-  ],
-  "githubrunner": "self-hosted"
+  ]
 }
